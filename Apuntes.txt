@@ -1,4 +1,9 @@
 - Instalar Python 3.3 para Windows y agregar en variables del entorno.
-- Instalar Github para Windows
+- Instalar Github para Windows - Controlador de versiones
 	Editar archivo ~.gitconfig y cambiar la url al repositorio deseado a descargar
 	Clonar el repositorio en cualquier carpeta local
+- Base de datos a utilizar será PostgreSQL con su IDE Pgadmin III
+- Django 1.9
+	python setup.py install
+- Para editor de front-end utilizamos Sublime
+- Para editor de back-end utilizamos Pycharm

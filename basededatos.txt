@@ -1,0 +1,16 @@
+CREATE ROLE odonto LOGIN
+  ENCRYPTED PASSWORD 'md5689cfc8e10635c6e6603b55a18eb8e91'
+  SUPERUSER INHERIT CREATEDB CREATEROLE REPLICATION;
+
+CREATE DATABASE "ODONTOLOGIA"
+  WITH OWNER = odonto
+       ENCODING = 'UTF8'
+       TABLESPACE = pg_default
+       LC_COLLATE = 'Spanish_Argentina.1252'
+       LC_CTYPE = 'Spanish_Argentina.1252'
+       CONNECTION LIMIT = -1;
+
+COMMENT ON DATABASE "ODONTOLOGIA"
+  IS 'Base de Datos para el Proyecto de Odontologia por Aldo Colman, Marcelo Machuca y Miguel León';
+
+ 
