@@ -1,10 +1,9 @@
-- Instalar Python2.7 para Windows y agregar en variables del entorno.
+- Instalar Python 3.3 para Windows y agregar en variables del entorno.
 - Instalar Github para Windows - Controlador de versiones
 	Editar archivo ~.gitconfig y cambiar la url al repositorio deseado a descargar
 	Clonar el repositorio en cualquier carpeta local
 - Base de datos a utilizar será PostgreSQL con su IDE Pgadmin III
-	Antes de utilizar instalar VCForPython27
-	para instalarlo en Django usar: pip install psycopg2
-- Instalar Django 1.8.3
-	pip install Django=1.8.3 en cmd 
-- Para editor de front-end y back-end utilizamos Sublime
+- Django 1.9
+	python setup.py install
+- Para editor de front-end utilizamos Sublime
+- Para editor de back-end utilizamos Pycharm
